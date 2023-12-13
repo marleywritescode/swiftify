@@ -1,0 +1,65 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
+div.body {
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(./taylor_background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+h1 {
+  padding: 1.5rem ;
+  background-color: #010c3f59;
+  text-align: center;
+  font-family: 'Righteous';
+  font-size: 2.5rem;
+  color: #fff; 
+  backdrop-filter: blur(10px);
+}
+p {
+  font-family: 'Bebas Neue';
+  color: #fff; 
+  font-size: 0.9rem;
+}
+h1 .highlight {
+  color: #6c41ec;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.55rem;
+}
+.App {
+  min-height: 75vh;
+  padding: 0 20px 100px 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1120px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1120px) {
+  .App {
+    padding: 0 5rem 100px 5rem;
+  }
+}
